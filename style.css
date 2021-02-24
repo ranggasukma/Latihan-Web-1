@@ -1,0 +1,114 @@
+body{
+	font-family: Times New Roman;
+	font-size: 20px;
+}
+h2{
+	font-style: bold;
+	
+	font size:20px;
+}
+p{
+	
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.box{
+	width: 100%;
+	height: 200px;
+	display: flex;
+	background-image:url(img/pixel.jpg);
+	justify-content: center;
+	align-items: center;
+}
+.box .konten{
+	width: 300px;
+	height: 100px;
+	opacity: 0.7;
+	background-color: #ffd480;
+	text-align: center;
+	
+}
+
+
+.navbar{
+	width: 100%;
+	height: 60px;
+	justify-content: center;
+}
+
+
+
+.kiri{
+	width: 70%;
+	float: left;
+	
+	height: 500px;
+	
+}
+.kanan{
+	width:400px;
+	float: right;
+	box-sizing: border-box;
+	height: 500px;
+	border-top:  2px solid red;
+	border-bottom:  2px solid red;
+	border-right:  2px solid red;
+	border-left:  2px solid red;
+	
+}
+.kanan img{
+	margin:10px 30px;
+	align-items: center;
+}
+
+fieldset{
+	border-color: black;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+
+}
+.clear{
+	clear: both;
+}
+
+.icon{
+	background-color: blue;
+	align-items: center;s
+}
+
+table{
+	margin: auto;
+}
+
+
+footer{
+	background-color: black;
+	color:white;
+	width: 100%;
+	margin-top: 500px;
+}
+
+
